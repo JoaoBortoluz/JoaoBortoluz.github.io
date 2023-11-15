@@ -1,0 +1,21 @@
+:root {
+    --main-bg-color: #1B1E24;
+    --secondary-bg-color: #2b303a;
+    --third-bg-color: #2b323f;
+    --button-bd-color: #252a35;
+
+    /* --main-complementar-color: rgb(255, 162, 0);
+    --secondary-complementar-color: rgb(249, 224, 99);
+    --third-complementar-color: rgb(255, 76, 36);  */
+
+    --main-complementar-color: rgb(93, 182, 234);
+    --secondary-complementar-color: rgb(99, 198, 255);
+    --third-complementar-color: rgb(47, 94, 121);
+
+    --main-hover-color: #39404f;
+    --secondary-hover-color: #394255;
+
+    --main-font-color: #ffff;
+
+    --main-border-color: rgb(38, 38, 49);
+}

@@ -1,0 +1,301 @@
+
+@media screen and (max-width : 1012px) {
+    #menu{
+        width: 100%;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #menu li a{
+        font-size: 14px;
+    }
+
+    #NameNav{
+        font-size: 20px;
+        margin: 0;
+
+    }
+
+    #HomeContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    #escritaLadoEsquerdo{
+        max-width: 100%;
+        order: 1;
+    }
+    
+    #escritaLadoEsquerdo h1 {
+        font-size: 40px;
+    }
+
+    #escritaLadoEsquerdo b{
+        font-size: 40px;
+    }
+
+    #fotoJoao{
+        max-width: 362px;
+        min-width: 341px;
+        display: flex;
+        align-items: baseline;
+        align-self: flex-end;
+        order: 3;
+        align-self: center;
+    }
+
+    #fotoJoao img{
+        max-width: 100%;
+   
+    }
+    
+    #escritaLadoDireito{
+        font-size: 20px;
+        max-width: 100%;
+        order: 2;
+    }
+}
+
+@media screen and (max-width : 824px) {
+
+    #mobile-menu-toggle {
+        display: block;
+        margin: 10px;
+        
+    }
+
+    #NameNav{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    #menu ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        align-self: center;
+        width: 100%;
+        
+    }
+
+    #menu ul li {
+        width: 100%;
+        padding: 5px;
+        background-color: var(--secondary-bg-color);
+        border-top: 0.5px var(--main-border-color) solid;
+        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.55);
+    }
+
+    #menu ul li a {
+        padding: 15px 5px;
+        
+    }
+
+    #menu.active ul {
+        display: flex;
+        align-items: first baseline;
+    }
+
+    #HomeContent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        flex-direction: column;
+    }
+
+    #escritaLadoEsquerdo{
+        max-width: 100%;
+        order: 1;
+    }
+
+    #escritaLadoEsquerdo h1 {
+        font-size: 25px;
+    }
+
+    #escritaLadoEsquerdo b{
+        font-size: 25px;
+    }
+    
+    #fotoJoao{
+        max-width: 340px;
+        min-width: 252px;
+        display: flex;
+        align-items: baseline;
+        align-self: flex-end;
+        order: 3;
+        align-self: center;
+    }
+    #fotoJoao img{
+        max-width: 100%;
+
+    }
+    
+    #escritaLadoDireito{
+        max-width: 100%;
+        order: 2;
+    }
+
+    /* Navegacao */
+    #navCenter{
+        background-color: var(--third-bg-color);
+        position: absolute;
+        left: 50%; /* Place it at 50% of the viewport width */
+        transform: translateX(-50%); /* Center it horizontally */
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.55);
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #navCenter ul{
+        list-style: none;
+        align-items: center;
+        height: 100%;  
+        margin: 0;
+        padding: 0px 0px; /* mexer aqui ou no padding de baixo obs:lembrete pessoal */
+        display: flex;
+        
+    }
+    
+    #navCenter li{
+        display: inline;
+        padding: 0 40px;
+        
+        
+    }
+    
+    #navCenter li a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        transition: all 0.4s;
+        padding: 10px 5px;
+        border-radius: 0px;
+        background-color: var(--secondary-bg-color);
+    
+    }
+    
+    #navCenter li a:hover {
+        background-color: var(--secondary-hover-color);
+    }
+    
+    #navCenter li img {
+        margin-right: 10px; /* Adicione espaço entre o ícone e o texto */
+        height: 37px;
+    }
+    /* Navegacao */
+
+    @media screen and (max-width : 600px) {
+        #HomeContent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0;
+            flex-direction: column;
+        }
+    
+        #escritaLadoEsquerdo{
+            max-width: 100%;
+            order: 1;
+        }
+
+        #escritaLadoEsquerdo h1 {
+            font-size: 25px;
+        }
+
+        #escritaLadoEsquerdo b{
+            font-size: 25px;
+        }
+    
+
+        #fotoJoao{
+            max-width: 50%;
+            min-width: 200px;
+            display: flex;
+            align-items: baseline;
+            align-self: flex-end;
+            order: 3;
+            align-self: center;
+            
+        }
+
+        #fotoJoao img{
+            max-width: 100%;
+        }
+        
+        #escritaLadoDireito{
+            font-size: 15px;
+            max-width: 100%;
+            order: 2;
+            
+        }
+
+        #navCenter ul{
+            list-style: none;
+            align-items: center;
+            height: 100%;  
+            margin: 0;
+            padding: 0px 0px; /* mexer aqui ou no padding de baixo obs:lembrete pessoal */
+            display: flex;
+            
+        }
+        
+        #navCenter li{
+            display: inline;
+            padding: 0 30px;
+            
+            
+        }
+        
+        #navCenter li a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 12px;
+            transition: all 0.4s;
+            padding: 7px 10px;
+            border-radius: 0px;
+            background-color: var(--button-bd-color);
+        
+        }
+        
+    
+    }
+
+    @media screen and (max-width : 400px) {
+        #navCenter ul{
+            list-style: none;
+            align-items: center;
+            height: 100%;  
+            margin: 0;
+            display: flex;
+            
+        }
+
+        #navCenter li{
+            display: inline;
+            padding: 0 10px;
+            
+            
+        }
+
+        #navCenter li img{
+            height: 30px;
+        }
+    }
+
+}

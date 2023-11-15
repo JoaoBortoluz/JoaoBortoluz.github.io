@@ -1,0 +1,197 @@
+    
+    /* @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;600&display=swap'); */
+    /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap'); */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;500&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--main-font-color);
+    background-color: var(--main-bg-color);
+    border: none;
+    min-width: 320px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+#NameNav{
+    color: var(--main-complementar-color);
+    margin: 10px 30px;
+    font-size: 27px;
+    font-weight: 600;
+}
+#menu {
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    background-color: var(--secondary-bg-color);
+    z-index: 100; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+    align-self: center;
+}
+
+#mobile-menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+
+#menu ul{
+    list-style: none;
+    align-items: center;
+    height: 100%;   
+    margin: 0;
+}
+
+#menu li{
+    display: inline;
+   
+}
+
+#menu li a{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--main-font-color);
+    text-decoration: none;
+    transition: all 0.4s;
+    border-radius: 40px;
+
+    
+}
+#menu li a:hover{
+    background-color: var(--main-hover-color);
+    border-radius: 40px;
+}
+
+#Home{
+    background-color: var(--secondary-bg-color);
+    
+}
+
+#HomeContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+#escritaLadoEsquerdo {
+    max-width: 32%;
+    /* border-bottom: 5px solid var(--main-complementar-color);
+    border-radius: 20px; */
+}
+
+#escritaLadoEsquerdo h1 {
+    font-size: 50px;
+}
+
+#escritaLadoEsquerdo b{
+    background-image: linear-gradient(to bottom,var(--main-complementar-color), var(--secondary-complementar-color), var(--third-complementar-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+}
+
+#fotoJoao{
+    max-width: 35%;
+    min-width: 363px;
+    display: flex;
+    align-items: baseline;
+    align-self: flex-end;
+
+}
+#fotoJoao img{
+    max-width: 90%;
+}
+
+#escritaLadoDireito{
+    font-size: 20px;
+    max-width: 32%;
+}
+
+#navCenter{
+    background-color: var(--third-bg-color);
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.55);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navCenter ul{
+    list-style: none;
+    align-items: center;
+    height: 100%;  
+    margin: 0;
+    padding: 0px 0px;
+    display: flex;
+    
+}
+
+#navCenter li{
+    display: inline;
+    padding: 0 80px;
+    
+    
+}
+
+#navCenter li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.4s;
+    padding: 10px 20px;
+    border-radius: 0px;
+    background-color: var(--button-bd-color);
+
+}
+
+#navCenter li a:hover {
+    background-color: var(--secondary-hover-color);
+}
+
+#navCenter li img {
+    margin-right: 10px;
+    height: 37px;
+}
+
+.Layout{
+    padding: 45px;
+}
+
+hr {
+    max-width: 80%;
+    border-color: rgb(109, 115, 126);
+}
+
+.Subtitles {
+    margin: 70px 0px;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+footer{
+    margin: 30px 50px;
+}
+
