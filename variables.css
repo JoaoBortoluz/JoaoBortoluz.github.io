@@ -8,14 +8,15 @@
     --secondary-complementar-color: rgb(249, 224, 99);
     --third-complementar-color: rgb(255, 76, 36);  */
 
-    --main-complementar-color: rgb(93, 182, 234);
-    --secondary-complementar-color: rgb(99, 198, 255);
-    --third-complementar-color: rgb(47, 94, 121);
+    --main-complementar-color: #5db6ea;
+    --secondary-complementar-color: #63c6ff;
+    --third-complementar-color: #2f5e79;
 
     --main-hover-color: #39404f;
     --secondary-hover-color: #394255;
 
     --main-font-color: #ffff;
 
-    --main-border-color: rgb(38, 38, 49);
+    --main-border-color: #262631;
+    --hr-line-color: #6d737e;
 }
